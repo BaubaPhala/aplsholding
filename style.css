@@ -166,10 +166,10 @@ width: 80%;
 }
 .chose-us{
     padding: 5rem 7%;
-    background-color:var(--headerclr);
+    background-color: turquoise;
 }
 .chose-us h1{
-    color: var(--mainclr);
+    color: var(--headerclr);
     font-size: 40px;
     text-align: center;
     padding: 2rem 1rem;
@@ -178,7 +178,7 @@ width: 80%;
     color: var(--mainclr);
 }
 .chose-text{
-    color: var(--mainclr);
+    color: var(--headerclr);
     font-size: 1.5rem;
     padding: 1rem 10rem;
     text-align: center;
@@ -493,16 +493,16 @@ nav .fa-solid{
         padding: 2rem;
     }
     .nav{
-        position: fixed;
+        position: absolute;
         top: 100%;
         width: 80%;
-        top:-1000%;
         left: 10%;
+        top: -1000%;
         background-color: #1a3950;
         box-shadow: rgba(0, 0, 0, 0.24)0px 3px 8px;
         border-radius: 15px;
         transition: .5s;
-       
+
     }
     .nav a{
         color:white;
