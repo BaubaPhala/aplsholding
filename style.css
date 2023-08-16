@@ -166,7 +166,7 @@ width: 80%;
 }
 .chose-us{
     padding: 5rem 7%;
-    background-color: turquoise;
+    background-color:var(--headerclr);
 }
 .chose-us h1{
     color: var(--headerclr);
@@ -494,14 +494,14 @@ nav .fa-solid{
     }
     .nav{
         position: fixed;
-        top: 0;
-        width: 200px;
-        right: 0;
+        top: 100%;
+        width: 80%;
+        top:-1000%;
+        left: 10%;
         background-color: #1a3950;
-        z-index: 2;
-        padding-top: 50px;
-        transition: .5s;
-        height: 100vh;
+        box-shadow: rgba(0, 0, 0, 0.24)0px 3px 8px;
+        border-radius: 15px;
+       
     }
     .nav a{
         color:white;
