@@ -31,6 +31,14 @@ html{
 #logo-img{
     object-fit:scale-down;
 }
+#logo{
+    color: var(--mainclr);
+    font-size: 15px;
+    position: absolute;
+    top: 38px;
+    left: 215px;
+    font-weight: bold;
+}
 
 .nav a{
     color: white;
@@ -510,7 +518,7 @@ nav .fa-solid{
         margin: 1rem;
         font-size: 14px;
     }
-    #logo{
+     #logo{
         color: var(--mainclr);
         font-size: 14px;
         position: absolute;
