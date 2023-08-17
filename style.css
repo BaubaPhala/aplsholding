@@ -17,7 +17,7 @@ html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-.header{
+#header{
     padding: 2rem 7%;
     position: fixed;
     left: 0;
@@ -232,7 +232,7 @@ transform: translateY(-25px);
     color: #ffffff;
 }
 /*service*/
-.our-services{
+#our-services{
     padding: 30px 0;
 }
 .our-services h1{
@@ -340,7 +340,7 @@ transform: translateY(-25px);
 }
 /*customer-review*/
 
-.customer-review{
+#customer-review{
     padding: 4rem 7%;
 }
 .customer-review h1{
@@ -408,7 +408,7 @@ body{
 ul{
 	list-style: none;
 }
-.footer{
+#footer{
 	background-color:var(--headerclr);
     padding: 70px 0;
 }
