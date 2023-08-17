@@ -101,13 +101,13 @@ html{
 }
 .inner-back-text h1{
     font-size: 50px;
-    color:var(--headerclr);
+    color:var(--mainclr);
     text-align: center;
     line-height: 5rem;
     text-transform: uppercase;
 }
 .inner-back-text h1 span{
-    color: var(--headerclr);
+    color: var(--mainclr);
     text-transform: uppercase;
 }
 .inner-back-text p{
@@ -116,6 +116,8 @@ html{
     margin-bottom: 15px;
     padding: 1rem;
     text-shadow: 0 0 6px rgb(255, 0, 60);
+    font-weight: bold;
+    
 }
 .inner-back-btn{
     display: flex;
