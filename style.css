@@ -177,10 +177,10 @@ width: 80%;
 }
 .chose-us{
     padding: 5rem 7%;
-    background-color: var(--headerclr);
+    background-color: var(--mainclr);
 }
 .chose-us h1{
-    color: var(--headerclr);
+    color: var(--mainclr);
     font-size: 40px;
     text-align: center;
     padding: 2rem 1rem;
@@ -424,7 +424,7 @@ ul{
 	font-weight: 500;
 	position: relative;
 }
-.ooter-col h4::before{
+.footer-col h4::before{
 	content: '';
 	position: absolute;
 	left:0;
