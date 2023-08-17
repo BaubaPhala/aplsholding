@@ -177,7 +177,7 @@ width: 80%;
 }
 .chose-us{
     padding: 5rem 7%;
-    background-color: var(--mainclr);
+    background-color: var(--headerclr);
 }
 .chose-us h1{
     color: var(--mainclr);
