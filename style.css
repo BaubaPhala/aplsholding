@@ -510,6 +510,14 @@ nav .fa-solid{
         margin: 1rem;
         font-size: 14px;
     }
+    #logo{
+        color: var(--mainclr);
+        font-size: 14px;
+        position: absolute;
+        top: 38px;
+        left: 150px;
+        font-weight: bold;
+    }
     .search-form{
         width: 90%;
     }
