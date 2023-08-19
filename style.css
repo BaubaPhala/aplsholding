@@ -529,8 +529,7 @@ nav .fa-solid{
     .back-video{
         width: 100%;
         height: auto;
-        padding: 0;
-        margin: -20px;
+        margin-top:10px ;
     }
 
     #menu-bar{
