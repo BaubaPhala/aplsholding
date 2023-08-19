@@ -577,3 +577,17 @@ nav .fa-solid{
             margin-bottom: 30px;
         }
 }
+@media  (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+
+}
+@media  (min-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+
+}  
