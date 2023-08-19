@@ -150,17 +150,21 @@ html{
 /*--mission and vision*/
 #about{
     padding: 3rem 7%;
-    
+ 
 }
 .welcome{
     padding: 3rem 7%;
 }
 .main-welcome{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
     flex-wrap: wrap;
+    align-self: center;
+    display: flex;
+    text-align: center;
+    margin-top: 510px;
 }
 .inner-welcome{
     flex: 1 1 45rem;
@@ -173,7 +177,7 @@ html{
 .welcome-text p{
     font-size: 1.5rem;
     padding: 1rem 0;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .welcome-text a{
     padding: 1.5rem 4rem;
@@ -188,6 +192,7 @@ html{
 }
 .inner-welcome img{
 width: 80%;
+border-radius: 15px;
 }
 .chose-us{
     padding: 5rem 7%;
@@ -506,6 +511,12 @@ ul{
 nav .fa-solid{
     display: none;
 }
+
+
+
+
+
+
 
 
 
