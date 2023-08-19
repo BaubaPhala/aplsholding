@@ -31,6 +31,12 @@ html{
 #logo-img{
     object-fit:scale-down;
 }
+.nav ul{
+    list-style: none;
+    display: inline-block;
+    margin-left: 200px;
+
+}
 #logo{
     color: var(--mainclr);
     font-size: 15px;
@@ -83,21 +89,14 @@ html{
 .home__social-link {
   color: var(--mainclr);
 }
-.background-image{
-    background: url(images/backgrad\ neww.jpg);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-}
+
 .inner-back-text{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    gap: 50px;
 }
 .inner-back-text h1{
     font-size: 50px;
@@ -113,18 +112,20 @@ html{
 .inner-back-text p{
     color: var(--mainclr);
     font-size: 1.5rem;
-    margin-bottom: 15px;
+    margin-top: 20px;
     padding: 1rem;
     text-shadow: 0 0 6px rgb(5, 77, 37);
     font-weight: bold;
-    
+    text-align: center;
 }
 .inner-back-btn{
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 .inner-back-btn a{
     margin-right: 1rem;
+    
 }
 .first-btn, .second-btn{
     padding: 1.5rem 4rem;
@@ -132,11 +133,19 @@ html{
     border-radius: 15px;
     color: var(--headerclr);
     font-size: 1.5rem;
+    
 }
 .first-btn:hover, .second-btn:hover{
     background: var(--headerclr);
     color: white;
     letter-spacing: 3px;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
 }
 /*--mission and vision*/
 #about{
@@ -224,7 +233,7 @@ width: 80%;
     transition: .5s;
 }
 .chose-icon i:hover{
-color: var(--headerclr);
+color: var(--mainclr);
 transform: translateY(-25px);
 }
 .inner-chose h2{
@@ -261,6 +270,8 @@ transform: translateY(-25px);
 }
 .inner-service{
     flex: 1 1 300px;
+    width: 80%;
+    border-radius: 15px;
 }
 .inner-service h2{
     padding: 1rem 0;
@@ -495,12 +506,6 @@ ul{
 nav .fa-solid{
     display: none;
 }
-
-
-
-
-
-
 
 
 
