@@ -526,6 +526,11 @@ nav .fa-solid{
     html{
         font-size: 55%;
     }
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+
     #menu-bar{
         display: initial;
     }
@@ -576,4 +581,4 @@ nav .fa-solid{
             width: 50%;
             margin-bottom: 30px;
         }
-}
+    }
