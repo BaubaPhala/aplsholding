@@ -178,10 +178,8 @@ body{
     text-align: center;
     line-height: 5rem;
     text-transform: uppercase;
-    background-image: url(images/image00009.jpg);
+    color: var(--mainclr);
     background-repeat: repeat;
-    -webkit-background-clip: text;
-    color: transparent;
 }
 .inner-back-text h1 span{
     color: var(--mainclr);
