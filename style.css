@@ -243,6 +243,7 @@ body{
     background-size: cover;
     
     
+    
 
 }
 /*--mission and vision*/
@@ -269,6 +270,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     border-radius: 15px;
+    margin: auto;
 }
 
 #about .row .image{
@@ -419,7 +421,7 @@ body{
 
 }
 .services-list div:hover{
-    background:var(--mainclr);
+    background:#15578a;
     transform: translateY(-10px);
 }
 /*--team--*/
@@ -734,6 +736,7 @@ nav .fa-solid{
 }
 /*---Civil---*/
 
+
 /*---Contact Us---*/
 input,
 textarea{
@@ -763,18 +766,19 @@ textarea{
 .content-c{
     position: absolute;
     justify-content: center;
-    top: 20%;
+    top: 50%;
     left: 5%;
-    transform: translate(-20,-5);
-    text-transform: uppercase;
-    text-align: center;
+    transform: translate(-50,-5);
+  
+    
+    
 }
 .content-c h1{
-    margin-top: 100px;
     color: var(--mainclr);
+    line-height: 5rem;
     text-transform: uppercase;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
 }
 .container-a {
     width: min(100%,950%);
@@ -802,13 +806,13 @@ textarea{
   }
   
   .contact-form {
-    background-color: #1abc9c;
+    background-color: var(--headerclr);
     position: relative;
   }
   
   .circle {
     border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%, #149279);
+    background: linear-gradient(135deg, transparent 20%, var(--mainclr));
     position: absolute;
   }
   
@@ -831,7 +835,7 @@ textarea{
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color: #1abc9c;
+    background-color: var(--headerclr);
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
@@ -903,7 +907,7 @@ textarea{
     background-color: #fff;
     border: 2px solid #fafafa;
     font-size: 0.95rem;
-    color: #1abc9c;
+    color:var(--headerclr);
     line-height: 1;
     border-radius: 25px;
     outline: none;
@@ -937,7 +941,7 @@ textarea{
     opacity: 0;
     transition: 0.3s;
     height: 5px;
-    background-color: #1abc9c;
+    background-color:var(--headerclr);
     top: 50%;
     transform: translateY(-50%);
   }
@@ -969,7 +973,7 @@ textarea{
   }
   
   .contact-info .title {
-    color: #1abc9c;
+    color:var(--headerclr);
   }
   
   .text {
@@ -1007,7 +1011,7 @@ textarea{
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #1abc9c, #149279);
+    background: linear-gradient(45deg, var(--headerclr), var(--headerclr));
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -1024,7 +1028,7 @@ textarea{
     position: absolute;
     width: 110px;
     height: 100px;
-    border: 22px solid #1abc9c;
+    border: 22px solid var(--headerclr);
     border-radius: 50%;
     bottom: -77px;
     right: 50px;
@@ -1036,7 +1040,7 @@ textarea{
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #1cd4af, #159b80);
+    background: linear-gradient(to bottom,var(--headerclr),var(--headerclr));
     bottom: 50%;
     right: 50%;
     transform: translate(-40%, 38%);
@@ -1107,6 +1111,15 @@ textarea{
     .header{
         padding: 12px 0;
     }
+    .video.bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
     .header .menu{
         position: fixed;
         right: 0;
@@ -1138,6 +1151,10 @@ textarea{
     }
     .header .close-nav-menu img{
         width: 16px;
+    }
+    .header .close-nav-menu,
+    .header .open-nav-menu{
+        display: flex;
     }
     .header .menu .close-menu-btn::before,
     .header .menu .close-menu-btn::after
@@ -1422,7 +1439,7 @@ textarea{
             height: 100%;
             top:0;
             overflow-y: auto;
-            background-color: white;
+            background-color: var(--headerclr);
             z-index: 1000;
             padding: 15px 0;
             transition: all 0.5s ease;
